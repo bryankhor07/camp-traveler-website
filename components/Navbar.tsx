@@ -50,7 +50,7 @@ const Navbar = () => {
       </button>
       {isMenuOpen && (
         <div
-          className="absolute top-full left-0 w-full bg-light/75
+          className="absolute top-full left-0 w-full bg-green-100/85
           flex flex-col items-center gap-4 py-4 lg:hidden shadow-md backdrop-blur-md"
         >
           {NAV_LINKS.map((link) => (
